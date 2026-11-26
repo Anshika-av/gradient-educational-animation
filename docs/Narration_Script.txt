@@ -1,0 +1,319 @@
+==============================================================
+ NARRATION SCRIPT — THE GRADIENT
+ M3 Mathematics Animation Video
+ Student : Anshika Verma | E25B070603
+ Subject : Mathematics 3 — Linear Algebra and Calculus
+ College : Newton School of Technology
+==============================================================
+
+HOW TO USE THIS SCRIPT
+─────────────────────────────────────────────────────────────
+1. Record your voice using any recorder app (Voice Memos on
+   iPhone, Audacity on PC/Mac, or QuickTime on Mac).
+
+2. Each line is prefixed with a timestamp [mm:ss] showing when
+   you should START saying that sentence.  Pause naturally at
+   each line break.
+
+3. Speak at a calm, clear pace — roughly 130 words per minute.
+
+4. After recording, you will sync the audio file with the
+   animation in Phase 3 (we will guide you step by step).
+
+5. Sections marked [VISUAL] describe what is on screen —
+   they are NOT meant to be spoken.
+
+Total estimated voice time: approximately 4 min 30 sec.
+Total video length (with pauses): approximately 5 min 05 sec.
+(Target: ~5 minutes | Absolute Maximum: 7 minutes)
+==============================================================
+
+
+──────────────────────────────────────────────────────────────
+SCENE 1 — HOOK AND INTRODUCTION
+Duration: 0:00 – 0:35 (~35 seconds)
+──────────────────────────────────────────────────────────────
+
+[VISUAL 0:00–0:04]
+   3-D mountain surface fades in. Camera begins a slow orbit.
+
+[0:04]
+   "Imagine you are standing on a mountain."
+
+[0:07]
+   "You can walk in any direction — north, south, east, west,
+   or anywhere in between."
+
+[0:12]
+   "But only one direction leads to the steepest climb upward."
+
+[0:16]
+   "How do you identify that direction?"
+
+[VISUAL 0:19–0:21]
+   Text: 'The answer: THE GRADIENT' appears.
+
+[0:21]
+   "The answer lies in a fundamental mathematical concept:
+   the gradient."
+
+[0:26]
+   "In this video, we will discover what the gradient is,
+   how to compute it, and why it always points in the
+   direction of steepest increase."
+
+[VISUAL 0:30–0:35]
+   Title card: 'THE GRADIENT — Direction of Maximum Increase'
+   with student name, ID, subject, and college.
+
+[0:30]
+   "My name is Anshika Verma, student ID E25B070603,
+   and this is my Mathematics 3 animation project at
+   Newton School of Technology."
+
+[PAUSE: hold title card for 1 second, then transition]
+
+
+──────────────────────────────────────────────────────────────
+SCENE 2 — INTRODUCTION TO MULTIVARIABLE FUNCTIONS
+Duration: 0:35 – 1:20 (~45 seconds)
+──────────────────────────────────────────────────────────────
+
+[VISUAL 0:35–0:40]
+   Clean light background. Formula f(x, y) = x² + y² builds in.
+
+[0:40]
+   "To understand the gradient, let us examine a function
+   of two variables: f of x and y equals x-squared plus y-squared."
+
+[0:48]
+   "Here, x and y are independent input coordinates in the
+   plane, and the output z equals f of x, y."
+
+[VISUAL 0:54–1:04]
+   3-D axes fade in. Surface z = x² + y² sweeps up.
+
+[0:54]
+   "Plotting every input-output pair in three dimensions forms
+   a bowl-shaped surface called an elliptic paraboloid."
+
+[1:03]
+   "The minimum point sits at the origin where x and y are zero,
+   and the surface curves symmetrically upward."
+
+[VISUAL 1:11–1:20]
+   Axes labels appear: x in blue, y in purple, z in navy.
+
+[1:11]
+   "The horizontal plane holds our inputs, while the vertical
+   z-axis represents the height of the surface."
+
+[PAUSE: hold for 1 second, then transition]
+
+
+──────────────────────────────────────────────────────────────
+SCENE 3 — UNDERSTANDING THE GRADIENT VISUALLY
+Duration: 1:20 – 2:25 (~65 seconds)
+──────────────────────────────────────────────────────────────
+
+[VISUAL 1:20–1:26]
+   Formula ∇f = (∂f/∂x, ∂f/∂y) animates onto screen.
+
+[1:26]
+   "The gradient is denoted by del or nabla: ∇f."
+
+[1:30]
+   "For a two-variable function, the gradient is a vector
+   consisting of the two first-order partial derivatives."
+
+[VISUAL 1:37–1:48]
+   Screen shows 3-D surface alongside 2-D contour plot.
+
+[1:37]
+   "Comparing the 3-D surface with a 2-D contour map,
+   each circular level curve connects points of equal elevation."
+
+[VISUAL 1:49–1:58]
+   Point P at (1, 2) marked in red. Gradient arrow drawn in orange.
+
+[1:49]
+   "At a specific point P, coordinates one, two, the orange
+   vector represents the gradient."
+
+[1:56]
+   "Notice its physical meaning: it points directly in the
+   direction of steepest upward ascent."
+
+[VISUAL 2:02–2:12]
+   Perpendicular marker highlights right angle with contour line.
+
+[2:02]
+   "Crucially, the gradient vector is always perpendicular
+   to the level curve passing through that point."
+
+[2:10]
+   "Walking along a contour line changes no height at all,
+   so the direction of maximum change must be perpendicular to it."
+
+[VISUAL 2:16–2:25]
+   Arrow length dynamically changes with slope.
+
+[2:16]
+   "Furthermore, the magnitude of the gradient equals the
+   maximum rate of increase. A steeper slope produces a longer vector."
+
+[PAUSE: hold for 1 second, then transition]
+
+
+──────────────────────────────────────────────────────────────
+SCENE 4 — STEP-BY-STEP WORKED EXAMPLE
+Duration: 2:25 – 3:45 (~80 seconds)
+──────────────────────────────────────────────────────────────
+
+[VISUAL 2:25–2:30]
+   Function written: f(x, y) = x² + y²
+   Goal: Find ∇f and |∇f| at P = (1, 2)
+
+[2:30]
+   "Now let us compute the gradient step by step."
+
+[VISUAL 2:34–2:45]
+   Step 1: ∂f/∂x = 2x
+
+[2:34]
+   "Step one: compute the partial derivative with respect to x.
+   Treating y as a constant, the derivative of x-squared is two-x,
+   and y-squared vanishes."
+
+[VISUAL 2:48–2:58]
+   Step 2: ∂f/∂y = 2y
+
+[2:48]
+   "Step two: compute the partial derivative with respect to y.
+   Treating x as a constant, the derivative of y-squared is two-y."
+
+[VISUAL 3:00–3:10]
+   Step 3: ∇f = (2x, 2y)
+
+[3:00]
+   "Step three: combine them into the general gradient vector:
+   del f equals the vector two-x, two-y."
+
+[VISUAL 3:12–3:24]
+   Step 4: Substitute (1, 2) → ∇f(1, 2) = (2, 4)
+
+[3:12]
+   "Step four: evaluate at our point P, one, two.
+   Substituting x equals one and y equals two yields the vector two, four."
+
+[VISUAL 3:25–3:38]
+   Magnitude step: |∇f(1,2)| = √(2² + 4²) = √20 = 2√5 ≈ 4.47
+
+[3:25]
+   "To find the steepest rate of climb, calculate the vector magnitude:
+   the square root of two-squared plus four-squared is root twenty,
+   or two root five — approximately four point four seven."
+
+[VISUAL 3:39–3:45]
+   Vector (2, 4) shown on the 3-D surface at P=(1, 2).
+
+[3:39]
+   "On our 3-D paraboloid, this vector points directly uphill
+   with exactly that slope."
+
+[PAUSE: hold for 1 second, then transition]
+
+
+──────────────────────────────────────────────────────────────
+SCENE 5 — INTERPRETATION AND REAL-LIFE APPLICATIONS
+Duration: 3:45 – 4:35 (~50 seconds)
+──────────────────────────────────────────────────────────────
+
+[VISUAL 3:45–3:53]
+   Mountain schematic with gradient vector uphill.
+
+[3:53]
+   "Returning to our mountain: the gradient's direction tells us
+   which way to step, and its magnitude reveals how steep the climb is."
+
+[VISUAL 3:59–4:25]
+   Four animated tiles: Machine Learning, Physics, Geography, Engineering.
+
+[3:59]
+   "This principle is central to modern technology."
+
+[4:03]
+   "In machine learning, gradient descent adjusts millions of parameters
+   by stepping opposite to the gradient to minimise model loss."
+
+[4:12]
+   "In thermodynamics, heat flows along negative temperature gradients."
+
+[4:18]
+   "In geography and GIS, gradients map terrain slopes for route safety."
+
+[4:24]
+   "And in engineering, gradient-based optimisers design aerodynamic structures."
+
+[4:29]
+   "To evaluate rates of change in any other arbitrary direction,
+   we take the directional derivative using the gradient dot product."
+
+[PAUSE: hold for 1 second, then transition]
+
+
+──────────────────────────────────────────────────────────────
+SCENE 6 — SUMMARY AND CREDITS
+Duration: 4:35 – 5:05 (~30 seconds)
+──────────────────────────────────────────────────────────────
+
+[VISUAL 4:35–4:40]
+   Clean screen. Three summary cards fly in sequentially.
+
+[4:40]
+   "To recap our three key takeaways:"
+
+[VISUAL 4:43]
+   Card 1: ∇f is a vector of partial derivatives.
+
+[4:43]
+   "First: The gradient is a vector of partial derivatives."
+
+[VISUAL 4:48]
+   Card 2: Points towards steepest increase (perpendicular to level curves).
+
+[4:48]
+   "Second: When non-zero, it points in the direction of steepest increase
+   and is perpendicular to level curves."
+
+[VISUAL 4:54]
+   Card 3: Magnitude equals the maximum rate of increase.
+
+[4:54]
+   "Third: Its magnitude equals the maximum rate of increase."
+
+[VISUAL 4:59–5:05]
+   Thank You card and academic credits.
+
+[4:59]
+   "Thank you for watching! Best wishes with your Mathematics 3 studies."
+
+[END OF NARRATION — Total Duration: ~5 minutes 05 seconds]
+
+
+==============================================================
+ RECORDING TIPS
+==============================================================
+• Use a quiet room and a good microphone (even phone earbuds
+  with a mic work well).
+• Record each scene as a separate audio clip so you can
+  re-record individual sections if needed.
+• Leave 0.5–1 second of silence at the start and end of
+  each clip.
+• We will label the files:
+      narration_scene01.mp3
+      narration_scene02.mp3
+      ...
+      narration_scene06.mp3
+• In Phase 3, we will merge these with the video using FFmpeg.
+==============================================================
