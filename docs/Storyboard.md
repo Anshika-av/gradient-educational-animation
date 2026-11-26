@@ -44,19 +44,29 @@
 
 ---
 
-## Scene 4: Step-by-Step Worked Example
-- **Target Duration:** 2:25 – 3:45 (~80 seconds)
-- **Visual Description:**
-  - Structured math panel with clear sequential steps:
-    1. Base function: $f(x, y) = x^2 + y^2$
-    2. Partial derivative w.r.t. $x$: $\frac{\partial f}{\partial x} = 2x$ (treating $y$ as constant)
-    3. Partial derivative w.r.t. $y$: $\frac{\partial f}{\partial y} = 2y$ (treating $x$ as constant)
-    4. General gradient vector: $\nabla f = (2x, 2y)$
-    5. Evaluation at $P(1, 2)$: $\nabla f(1, 2) = (2(1), 2(2)) = (2, 4)$
-    6. Magnitude calculation: $\|\nabla f(1, 2)\| = \sqrt{2^2 + 4^2} = \sqrt{20} = 2\sqrt{5} \approx 4.47$
-  - Vector $(2, 4)$ dynamically connected to the 3D surface at point $(1, 2, 5)$ to reinforce spatial meaning.
-- **Key Concepts:** Partial differentiation rules, vector evaluation, distinguishing vector direction from scalar magnitude.
+##Scene 4: Step-by-Step Worked Example
 
+Target Duration: 2:25 – 3:45 (~80 seconds)
+
+Visual Description:
+
+Structured math panel with clear sequential steps:
+
+Base function: (f(x,y)=x^2+y^2)
+
+Partial derivative w.r.t. (x): (\frac{\partial f}{\partial x}=2x) (treating (y) as constant)
+
+Partial derivative w.r.t. (y): (\frac{\partial f}{\partial y}=2y) (treating (x) as constant)
+
+General gradient vector: (\nabla f=(2x,2y))
+
+Evaluation at (P(1,2)): (\nabla f(1,2)=(2(1),2(2))=(2,4))
+
+Magnitude calculation: (|\nabla f(1,2)|=\sqrt{2^2+4^2}=\sqrt{20}=2\sqrt{5}\approx4.47)
+
+Vector ((2,4)) dynamically connected to the 3D surface at point ((1,2,5)) to reinforce spatial meaning.
+
+Key Concepts: Partial differentiation rules, vector evaluation, distinguishing vector direction from scalar magnitude.
 ---
 
 ## Scene 5: Interpretation and Real-Life Applications
